@@ -1,0 +1,17 @@
+python3-libsousou (1.0.3ubuntu4) stable; urgency=medium
+
+  * Added web framework.
+
+ -- Sousou Industries Releases <releases@sousouindustries.com>  Fri, 13 Nov 2015 15:25:18 +0100
+
+python3-libsousou (1.0.0ubuntu10) stable; urgency=medium
+
+  * Fixed bug in password comparison algorithm.
+
+ -- Sousou Industries Releases <releases@sousouindustries.com>  Sat, 03 Oct 2015 13:51:09 +0200
+
+python3-libsousou (1.0.0ubuntu9) stable; urgency=medium
+
+  * Added translation module.
+
+ -- Sousou Industries Releases <releases@sousouindustries.com>  Wed, 29 Apr 2015 06:48:23 +0200

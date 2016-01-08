@@ -1,0 +1,8 @@
+#!/bin/sh
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+echo "Working directory: $SCRIPTPATH"
+export PYTHONPATH="$SCRIPTPATH:$PYTHONPATH"
+python3 scripts/run_tests.py --cover-package=libsousou --with-coverage\
+    --cover-min-percentage 100\
+    $@

@@ -1,0 +1,4 @@
+#!/bin/sh
+rm -rf ../python3-libsousou_*
+dpkg-buildpackage -rfakeroot -b
+dpkg -c ../python3-libsousou_*.deb
